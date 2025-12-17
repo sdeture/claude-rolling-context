@@ -1,0 +1,16 @@
+{
+  "comment": "Example configuration for Claude Rolling Context Manager",
+  "claude_projects_dir": "~/.claude/projects",
+  "projects": {
+    "MyProject": "-Users-myusername-Desktop-MyProject",
+    "AnotherProject": "-Users-myusername-Desktop-AnotherProject"
+  },
+  "api_key": "your-openrouter-api-key-or-set-env-OPENROUTER_API_KEY",
+  "api_url": "https://openrouter.ai/api/v1/chat/completions",
+  "api_model": "mistralai/mistral-large-2512",
+  "max_messages": 200,
+  "trim_fraction": 0.40,
+  "backup_keep_count": 10,
+  "generate_summaries": true,
+  "summary_custom_prompt": null
+}
